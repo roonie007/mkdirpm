@@ -1,0 +1,31 @@
+{
+  "name": "mkdirpm",
+  "version": "1.0.2",
+  "description": "Like mkdir -p, but in node.js! and create multiple directories at one time , refer to \"https://www.npmjs.com/package/mkdirp\"",
+  "main": "index.js",
+  "preferGlobal": "true",
+  "bin": {
+    "mkdirpm": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roonie007/mkdirpm.git"
+  },
+  "keywords": [
+    "directories",
+    "directory",
+    "folder",
+    "mkdir",
+    "mkdirpm",
+    "mkdirp"
+  ],
+  "author": "substack,DipToX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roonie007/mkdirpm/issues"
+  },
+  "homepage": "https://github.com/roonie007/mkdirpm#readme",
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  }
+}
