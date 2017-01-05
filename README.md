@@ -1,5 +1,5 @@
 # mkdirpm
-Like mkdir -p, but in node.js! and create multiple directories at one time , refer to "https://www.npmjs.com/package/mkdirp"
+Like mkdir -p, but in node.js! and create multiple directories at one time **No sync** - refer to "https://www.npmjs.com/package/mkdirp"
 
 ### Install
 ```sh
@@ -34,7 +34,7 @@ mkdirpm(path.join(__dirname,"cccccc/aaaaaa"),function(err,index,path)
 });
 ```
 
-### Example Gloabl
+### Example globally
 ```sh
 mkdirpm "/home/user/folder1" "/home/user/folder2/folder1" "/home/user/folder3/folder1/folder2/folder3" "/home/user/folder4"
 ```
